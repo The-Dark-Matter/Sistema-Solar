@@ -145,7 +145,7 @@ agrandar {
   -webkit-user-select: none;
 
 }
-#Sol {
+#Sol,#Mercurio,#Venus,#Tierra,#Marte,#Júpiter,#Saturno,#Urano,#Neptuno {
   margin: 0 0 0 0;
   position: absolute;
   height: 420px;
@@ -155,13 +155,16 @@ agrandar {
   left:825px;
   display: none;
 }
-#Mercurio {
-  margin: 0 0 0 0;
+.IMGS {
+  position: absolute;;
+  width: 650px;
+}
+a {
   position: absolute;
-  height: 420px;
-  width:650px;
+  top: 625px;
+  width:700px;
   color: white;
-  top:75px;
-  left:825px;
-  display: none;
+  text-decoration: none;
+  font-size: 30px;
+  text-align-last: center;
 }
