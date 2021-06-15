@@ -1,7 +1,7 @@
 body {
   height: 100%;
   width: 100%;
-  overflow: visible;
+  overflow: hidden;
   background: black;
 }
 
@@ -37,36 +37,35 @@ body {
   left: 756px;
 }
 .sol {
-  --size: 200px;
-  --top: 400px;
-  --left: 400px;
+  --size: 500px;
+  --top: 200px;
+  --left: -250px;
   top: var(--top);
   left: var(--left);
   background-image: url(imgs/sun.gif);
   background-size: cover;
 }
 .mercurio {
-  --size: 20px;
-  --top: 200px;
-  --left: 200px;
+  --size: 40px;
+  --top: 430px;
+  --left: 300px;
   top: var(--top);
   left: var(--left);
   background-image: url(imgs/mercury.gif);
   background-size: cover;
 }
 .venus {
-  --size: 40px;
-  --top: 100px;
-  --left: 100px;
+  --size: 60px;
+  --top: 420px;
+  --left: 400px;
   top: var(--top);
   left: var(--left);
   background-image: url(imgs/venus.gif);
   background-size: cover;
-  top: 100px;
 }
 .tierra {
   --size: 70px;
-  --top: 400px;
+  --top: 415px;
   --left: 500px;
   top: var(--top);
   left: var(--left);
@@ -75,16 +74,16 @@ body {
 }
 .marte {
   --size: 60px;
-  --top: 200px;
-  --left: 500px;
+  --top: 420px;
+  --left: 600px;
   top: var(--top);
   left: var(--left);
   background-image: url(imgs/mars.gif);
   background-size: cover;
 }
 .jupiter {
-  --size: 100px;
-  --top: 700px;
+  --size: 200px;
+  --top: 350px;
   --left: 700px;
   top: var(--top);
   left: var(--left);
@@ -92,8 +91,8 @@ body {
   background-size: cover;
 }
 .saturno {
-  --size: 70px;
-  --top: 500px;
+  --size: 150px;
+  --top: 375px;
   --left: 900px;
   top: var(--top);
   left: var(--left);
@@ -101,18 +100,18 @@ body {
   background-size: cover;
 }
 .urano {
-  --size: 60px;
-  --top: 100px;
-  --left: 400px;
+  --size: 125px;
+  --top: 377.5px;
+  --left: 1100px;
   top: var(--top);
   left: var(--left);
   background-image: url(imgs/uranus.gif);
   background-size: cover;
 }
 .neptuno {
-  --size: 40px;
-  --top: 600px;
-  --left: 100px;
+  --size: 130px;
+  --top: 375px;
+  --left: 1300px;
   top: var(--top);
   left: var(--left);
   background-image: url(imgs/neptune.gif);
@@ -167,4 +166,19 @@ a {
   text-decoration: none;
   font-size: 30px;
   text-align-last: center;
+}
+#Titulo {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+#controles {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  font-size: 24;
+  color: white;
 }
