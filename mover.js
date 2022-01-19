@@ -59,7 +59,7 @@ function izq() {
 }
 $(document).ready(function() {
 /*ABRIR*/
-  $('.a').click(function() {
+  $('.s'||'.p').click(function() {
     lastClass = $(this).attr('class').split(' ').pop();
     este = $("."+"a"+"."+lastClass).last();
     if(grande=="0") {
